@@ -8,8 +8,8 @@ pra chamar uma funcao exemplo(struct ptr **tracer), é preciso passar o endereç
 exemplo(&inicio);
 
 isso é utilizado quando a funcao altera o conteudo da lista,
-em funções mostrar_conteudo ou num_de_elementos, não é necessário
-porque a lista em si não é alterada, apenas os valores que já estão nela
+em funções mostrar_conteudo ou num_de_elementos não é necessário
+porque a lista em si não é alterada, apenas os valores que já estão nela são utilizados
 
 para usar essas funções em um arquivo.c, basta usar
 #include "exemplo.h"
